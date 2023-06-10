@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: Yzrewq0987
+    url: jdbc:postgresql://localhost:5432/school_es
+    hikari:
+      maximum-pool-size: 20
+  jpa:
+    hibernate:
+      ddl-auto: update
+
